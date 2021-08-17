@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Candy Rush Game</title>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section class="sky">
+      <h4>Flappy Bird</h4>
+      <img src="images/mountains.png" alt="mountains" id="mountains" />
+      <img src="images/cloud.png" alt="cloud" id="cloud-One" />
+      <img src="images/cloud.png" alt="cloud" id="cloud-Two" />
+      <img src="images/cloud.png" alt="cloud" id="cloud-Three" />
+      <img src="images/cloud.png" alt="cloud" id="cloud-Four" />
+      <img src="images/cloud.png" alt="cloud" id="cloud-Five" />
+      <img src="images/air-balloon.png" alt="air-balloon" id="airballoon" />
+      <!--<img src="images/cottonCandy.jpg" alt="cottonCandy" id="cottonCandy" />
+      <img src="images/cupcake.jpg" alt="cupcake" id="cupcake" />
+      <img src="images/lollipop.jpg" alt="lollipop" id="lollipop" />-->
+    </section>
+
+    <section class="instructions">
+      <!--Instructions on how to play the game-->
+      <h1>How to play:<br></h1>
+    </section>
+
+    <section class = "command">  
+        <p>1. Try to keep the bird flying by pressing the Space bar. Remeber the faster you tap, the higher you go.<br> 2. Measure your tap heights to go between the two pipes. </p>
+    </section>
+
+    <section class="flappy">
+      <canvas id="canvas" width="288" height="512"></canvas>
+      <script src="flappycandy.js"></script>
+    </section>
+    
+    <script src="index.js"></script>
+  </body>
+</html>
